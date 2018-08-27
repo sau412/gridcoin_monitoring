@@ -7,7 +7,8 @@ See https://steemit.com/gridcoin/@sau412/gridcoin-network-monitoring-with-cacti
 Here is copy of steemit article:
 # Introduction
 
-Sometimes you want to know if something interesting happens in Gridcoin network. Here is instruction how to create graphs for interesting parameters with cacti. It will be looks like that:
+Sometimes you want to know if something interesting happens in Gridcoin network. Here is instruction how to create graphs for interesting parameters with cacti.
+
 Requirements
 
 * Gridcoin research client (RPC also possible)
@@ -27,6 +28,7 @@ And set your gridcoin folder variable in get_gridcoin_info_cli.php. Also your gr
 # Cacti
 
 Cacti is RRDTool-based Graphing Solution. In simple words it can draw graphs. Usually it draw interface load, CPU load, user count. Now we add Gridcoin network stats here.
+
 ## Adding data input
 
 * Data collection -> Data input methods
